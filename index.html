@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>assignment10</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .box {
+      width: 100vw;
+      height: 100vh;
+      background-color: white;
+    }
+    .box-item {
+      width: 300px;
+      height: 460px;
+      background-color: #ffffff;
+      display: inline-block;
+      margin-left: 90px;
+      margin-top: 60px;
+      box-shadow: 1px 1px 10px 1px black;
+      border-radius: 15px;
+      box-sizing: border-box;
+    }
+    .box-item-1 {
+      width: 100%;
+      box-sizing: border-box;
+      height: 37%;
+    border-radius: 15px 15px 15px 15px;
+    }
+    .box-item-color-1 {
+      background: linear-gradient(120deg, #1aff1a, #00e6b8);
+      }
+    .box-item-color-2 {
+      background: linear-gradient(120deg, #ff8533, #ff1a8c);
+    }
+.box-item-color-3 {
+      background: linear-gradient(120deg, #1aff1a, #00e6b8);
+    }
+ .heading {
+      font-size: 33px;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 71px;
+    }
+    .para {
+      font-size: 18px;
+      margin-top: 23px;
+      text-align: center;
+      padding-left: 10px;
+      padding-right: 11px;
+    }
+    .button {
+      background-color: #f2f2f2;
+      color: black;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      width: 105px;
+      padding-left: 20px;
+      padding-top: 4px;
+      padding-bottom: 4px;
+      font-size: 16px;
+      padding-right: 20px;
+      margin-top: 25px;
+      border-style: none;
+    }
+.button:hover{
+        border-radius:25px ;
+        background-color:  #1aff1a;
+        border: 2px solid   #00e6b8;
+        transition: 1s;
+}
+.button1 {
+    background-color: #f2f2f2;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 105px;
+    padding-left: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 16px;
+    padding-right: 20px;
+    margin-top: 25px;
+    border-style: none;
+  }
+  .button1:hover{
+    border-radius:25px ;
+    background-color:  #ff8533;
+    border: 2px solid  #ff1a8c;
+    transition: 0.7s;
+}
+    .img-card-1 {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      position: absolute;
+      top: 170px;
+      left: 183px;
+    }
+    .img-card-2 {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      position: absolute;
+      top: 170px;
+      left: 577px;
+    }
+    .img-card-3 {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      position: absolute;
+      top: 170px;
+      left: 975px;
+    }
+  </style>
+  <body>
+    <div class="box">
+      <div class="box-item">
+        <div class="box-item-1 box-item-color-1"></div>
+        <img src="bill-gate.jpeg" alt="bill gate" class="img-card-1" />
+        <div class="heading">Bill Gates</div>
+        <div class="para">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+          temporibus, quia qui nihil asperiores commodi?
+        </div>
+        <button class="button">Contact</button>
+      </div>
+      <div class="box-item">
+        <div class="box-item-1 box-item-color-2"></div>
+        <img src="elon-musk.jpeg" alt="elon musk" class="img-card-2" />
+        <div class="heading">Elon Musk</div>
+        <div class="para">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+          temporibus, quia qui nihil asperiores commodi?
+        </div>
+        <button class="button1">Contact</button>
+      </div>
+      <div class="box-item">
+        <div class="box-item-1 box-item-color-3"></div>
+        <img
+          src="Mark-Zuckerberg.jpg"
+          alt="mark zukerberg"
+          class="img-card-3"
+        />
+        <div class="heading">Zuckerberg</div>
+        <div class="para">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+          temporibus, quia qui nihil asperiores commodi?
+        </div>
+        <button class="button">Contact</button>
+      </div>
+    </div>
+    
+  </body>
+</html>
